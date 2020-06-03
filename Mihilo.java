@@ -8,11 +8,10 @@ public class Mihilo extends Thread{
 	
 
 
-
-		public Mihilo(int n, int num) {
-		super();
-		this.n = n;
-		this.num = num;
+  public Mihilo(int n, int num) {
+   super();
+   this.n = n;
+   this.num = num;
 	}
 
 
@@ -29,7 +28,7 @@ public class Mihilo extends Thread{
 	  }
 	  
 	  System.out.println("El auto "+num+" finalizo el recorrido");
-	  }
+  }
 	    
 	    
 	    
